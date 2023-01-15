@@ -1,11 +1,7 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
+    <h1 class="text-center mt-5">Aplicación de tareas</h1>
   </v-app>
 </template>
 
-<script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
-</script>
+<script></script>
