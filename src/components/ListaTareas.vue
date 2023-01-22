@@ -1,10 +1,16 @@
 <template>
   <ul>
-    <li>hola amigos</li>
-    <li>hola amigos</li>
-    <li>hola amigos</li>
-    <li>hola amigos</li>
+    <li v-for="tarea in listaTareas" :key="tarea">
+      {{ tarea }}
+    </li>
   </ul>
 </template>
 
-<script></script>
+<script>
+export default {
+  props: ["listaTareas"],
+  data() {
+    return {};
+  },
+};
+</script>

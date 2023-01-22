@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-container>
-      <h1 class="text-center mt-5">Aplicación de tareas</h1>
+      <h2 class="text-center my-5">Aplicación de tareas</h2>
       <FormularioAgregarTarea />
     </v-container>
   </v-app>
